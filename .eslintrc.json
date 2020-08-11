@@ -19,7 +19,12 @@
         "prettier"
     ],
     "rules": {
-      "prettier/prettier": "error",
+      "class-methods-use-this": "off",
+      "arrow-parens": "off",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "object-curly-newline": "off",
+      "camelcase": "off",
+      "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
 	   	"import/extensions": [
 	      "error",
 	      "ignorePackages",
@@ -32,5 +37,5 @@
 	    "import/resolver": {
 	      "typescript": {}
 	    }
-	  } 
+	  }
 }
